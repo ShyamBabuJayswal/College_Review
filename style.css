@@ -1,0 +1,84 @@
+.container {
+  max-width: 100%;
+  margin: 0 0;
+  background-color: #FEFAF6;
+  font-weight: 500;
+
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+}
+
+
+
+th,
+td {
+  padding: 5px;
+  border-bottom: 0.5px solid grey;
+  text-align: left;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  ;
+}
+
+
+.head {
+  color: #FEFAF6;
+  background-color: #64CCC5;
+
+}
+
+.searchandsort {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchInput {
+  width: 30%;
+  height: 40px;
+  border: 3px sandybrown solid;
+}
+
+.college-rank {
+  font-weight: 500;
+
+}
+
+.college-img {
+  width: 30px;
+  height: auto;
+}
+
+.college-name {
+  color: #5DEBD7;
+  font-weight: 500;
+  font-size: large;
+  margin-left: 20px;
+
+}
+
+.college-loc {
+  font-size: 15px;
+  margin-left: 53px;
+  font-weight: 400;
+
+}
+
+.college-fhv {
+  color: #41B06E;
+  font-weight: 700;
+}
+
+.college-course-year {
+  font-size: 12px;
+
+}
+
+.pack-text {
+  color: #222831;
+  font-size: 12px;
+}

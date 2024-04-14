@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="head">CD Rank</th>
+                    <th class="head">Colleges</th>
+                    <th class="head">Course Fees</th>
+                    <th class="head">Placement </th>
+                    <th class="head">User Reviews</th>
+                    <th class="head">Rating</th>
+                </tr>
+            </thead>
+            <tbody id="college-body"></tbody>
+        </table>
+        <div class="searchandsort">
+            <input type="text" id="searchInput" placeholder="Search by college name....">
+            <div class="sorting-buttons">
+                <button id="sortRating">Sort by Rating</button>
+                <button id="sortFees">Sort by Fees</button>
+                <button id="sortUserReviews">Sort by User Reviews</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
